@@ -1,0 +1,41 @@
+/* login form styling */
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: rgb(202, 235, 198);
+}
+.container{
+    margin-top: 100px;
+}
+input:active, input:focus, button:active, button:focus{
+    box-shadow: none!important;
+}
+/* create form styling */
+.backbutton{
+    background-color: rgb(202, 235, 198);
+}
+/* table styling */
+.nav-link, .nav-link:hover{
+    color: green;
+    font-weight: bold;
+}
+.nav-link:focus, .active{
+    background-color: rgb(202, 235, 198);
+    color: black;
+    border-radius: 20px;
+}
+.pagination > li > a.arrow{
+    color: rgb(180, 179, 179);
+}
+.pageNumber:focus{
+    background-color: green;
+    color: white;
+    border-radius: 12px;
+}
+button:active, button:focus, input:active, input:focus{
+    box-shadow: none!important;
+}
+.pagination > li > a
+{
+    color: black;
+}
